@@ -1,0 +1,20 @@
+git - sustav za verzioniranje koda (VCS)
+django - (ne jungle) web framework (kao i flask), malo ograničeniji, no moćniji
+virtual environments - odvojena verzija pythona skupa s libraryjima
+route - dio URL-a nakon imena web stranice (nakon /)
+dekorator - anotacije/funkcije koje mijenjaju/nadograđuju druge funkcije
+ip adresa - adresa uređaja (ili stranice) spojenog na internet
+localhost (adresa 127.0.0.1) - adresa OVOG računala
+http port - "vrata" tj. kanala za pristup web stranici (127.0.0.1:80)
+    - default port za Flask je 5000
+    - default http port je 80, za https 443
+jinja2 - template engine za python (dolazi s flaskom)
+README.md - dokumentacija projekta (opis, upute)
+markdown - jezik za formatiranje teksta
+.gitignore - tekstualna datoteka s popisom datoteka/putanja koje NE ŽELIMO u git repozitoriju
+
+git
+- add - pripremanje za commit (stage)
+- commit - skup promjena spremnih za push na remote repo
+- push - slanje commit(ov)a na remote repo (cloud)
+- remote(s) - popis url-ova za pull/push
