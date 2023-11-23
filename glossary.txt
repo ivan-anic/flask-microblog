@@ -12,6 +12,8 @@ jinja2 - template engine za python (dolazi s flaskom)
 README.md - dokumentacija projekta (opis, upute)
 markdown - jezik za formatiranje teksta
 .gitignore - tekstualna datoteka s popisom datoteka/putanja koje NE ŽELIMO u git repozitoriju
+migracije - revizije između verzija baze podataka
+alembic - python library za upravljanje migracijama
 
 git
 - add - pripremanje za commit (stage)
