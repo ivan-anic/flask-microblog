@@ -11,4 +11,4 @@ migrate = Migrate(app, db)
 login = LoginManager(app)
 login.login_view = 'login' # ako korisnik nije ulogiran, ovdje ga fwd
 
-from app import routes, models
+from app import errors, routes, models
