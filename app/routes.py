@@ -20,7 +20,7 @@ def index():
     posts = [
         {
             'author': {'username': 'John'},
-            'body': 'Beautiful day in Portland!'
+            'body': 'Beautiful day in Portland!',
         },
         {
             'author': {'username': 'John'},
@@ -75,8 +75,8 @@ def logout():
 def user(username):
     user = User.query.filter_by(username=username).first_or_404()
     posts = [
-        {'author': user, 'body': 'Test post #1'},
-        {'author': user, 'body': 'Test post #2'}
+        {'author': user, 'body': 'Test post #1','timestamp': datetime.fromtimestamp(1701171464)},
+        {'author': user, 'body': 'Test post #2','timestamp': datetime.fromtimestamp(1701323164)}
     ]
     return render_template('user.html', user=user, posts=posts)
 

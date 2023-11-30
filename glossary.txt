@@ -14,6 +14,8 @@ markdown - jezik za formatiranje teksta
 .gitignore - tekstualna datoteka s popisom datoteka/putanja koje NE ŽELIMO u git repozitoriju
 migracije - revizije između verzija baze podataka
 alembic - python library za upravljanje migracijama
+html - (hyper text markup language) - jezik weba
+css - (cascading style sheets) - stilizacija html-a
 
 git
 - add - pripremanje za commit (stage)
